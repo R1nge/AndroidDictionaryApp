@@ -22,7 +22,7 @@ class WordInfoRepositoryImpl(
 
             try {
                 val remoteWordInfos = api.getWordInfo(language, word)
-                dao.deleteWordInfos(remoteWordInfos.map { it.word })
+                dao.deleteWordInfos(wordInfos.map { it.word })
                 dao.insertWordInfos(remoteWordInfos.map { it.toWordInfoEntity() })
             } catch (e: retrofit2.HttpException) {
                 emit(Resource.Error("Something went wrong", wordInfos))
