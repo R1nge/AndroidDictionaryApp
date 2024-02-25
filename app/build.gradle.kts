@@ -74,14 +74,27 @@ dependencies {
     kapt("com.google.dagger:hilt-android-compiler:2.50")
     implementation("androidx.hilt:hilt-navigation-compose:1.2.0")
 
-
-    // Location Services
+    //Location Services
     implementation("com.google.android.gms:play-services-location:21.1.0")
 
-    // Retrofit
+    //Retrofit
     implementation("com.squareup.retrofit2:retrofit:2.9.0")
     implementation("com.squareup.retrofit2:converter-moshi:2.9.0")
     implementation("com.squareup.okhttp3:logging-interceptor:5.0.0-alpha.3")
 
+    //Compose
     implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.7.0")
+
+    //Coroutines
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.1")
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.1")
+
+    //Coroutine lifecycle scopes
+    implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0")
+
+    //Room
+    implementation("androidx.room:room-runtime:2.6.1")
+    kapt("androidx.room:room-compiler:2.6.1")
+
+    implementation("androidx.room:room-ktx:2.6.1")
 }
