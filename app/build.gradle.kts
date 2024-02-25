@@ -6,11 +6,11 @@ plugins {
 }
 
 android {
-    namespace = "com.r1nge.template"
+    namespace = "com.r1nge.dictionary"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.r1nge.template"
+        applicationId = "com.r1nge.dictionary"
         minSdk = 26
         targetSdk = 34
         versionCode = 1
