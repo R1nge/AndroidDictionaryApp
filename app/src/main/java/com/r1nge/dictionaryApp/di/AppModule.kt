@@ -1,4 +1,4 @@
-package com.r1nge.template.di
+package com.r1nge.dictionaryApp.di
 
 import dagger.Module
 import dagger.hilt.InstallIn

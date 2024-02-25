@@ -1,4 +1,4 @@
-package com.r1nge.template
+package com.r1nge.dictionaryApp
 
 import android.app.Application
 import dagger.hilt.android.HiltAndroidApp

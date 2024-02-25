@@ -1,4 +1,4 @@
-package com.r1nge.template
+package com.r1nge.dictionaryApp
 
 import org.junit.Test
 

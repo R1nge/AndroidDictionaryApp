@@ -1,10 +1,10 @@
-package com.r1nge.template.presentation.ui.theme
+package com.r1nge.dictionaryApp.presentation.ui.theme
 
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.runtime.Composable
 
 @Composable
-fun TemplateAppTheme(content: @Composable () -> Unit) {
+fun AppTheme(content: @Composable () -> Unit) {
     MaterialTheme(
         typography = Typography,
         shapes = Shapes,
